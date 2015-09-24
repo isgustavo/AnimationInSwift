@@ -12,6 +12,10 @@
 		721C192C1BB1C516001AC2D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721C192A1BB1C516001AC2D0 /* Main.storyboard */; };
 		721C192E1BB1C516001AC2D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 721C192D1BB1C516001AC2D0 /* Assets.xcassets */; };
 		721C19311BB1C516001AC2D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721C192F1BB1C516001AC2D0 /* LaunchScreen.storyboard */; };
+		721C195B1BB312DD001AC2D0 /* orange-fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 721C19581BB312DD001AC2D0 /* orange-fish.png */; settings = {ASSET_TAGS = (); }; };
+		721C195C1BB312DD001AC2D0 /* red-fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 721C19591BB312DD001AC2D0 /* red-fish.png */; settings = {ASSET_TAGS = (); }; };
+		721C195D1BB312DD001AC2D0 /* blue-fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 721C195A1BB312DD001AC2D0 /* blue-fish.png */; settings = {ASSET_TAGS = (); }; };
+		721C195F1BB312E8001AC2D0 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 721C195E1BB312E8001AC2D0 /* background.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		721C192D1BB1C516001AC2D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		721C19301BB1C516001AC2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		721C19321BB1C516001AC2D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		721C19581BB312DD001AC2D0 /* orange-fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orange-fish.png"; sourceTree = "<group>"; };
+		721C19591BB312DD001AC2D0 /* red-fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-fish.png"; sourceTree = "<group>"; };
+		721C195A1BB312DD001AC2D0 /* blue-fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-fish.png"; sourceTree = "<group>"; };
+		721C195E1BB312E8001AC2D0 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		721C19251BB1C516001AC2D0 /* AnimationInSwift */ = {
 			isa = PBXGroup;
 			children = (
+				721C195E1BB312E8001AC2D0 /* background.jpg */,
+				721C19581BB312DD001AC2D0 /* orange-fish.png */,
+				721C19591BB312DD001AC2D0 /* red-fish.png */,
+				721C195A1BB312DD001AC2D0 /* blue-fish.png */,
 				721C19261BB1C516001AC2D0 /* AppDelegate.swift */,
 				721C19281BB1C516001AC2D0 /* ViewController.swift */,
 				721C192A1BB1C516001AC2D0 /* Main.storyboard */,
@@ -121,6 +133,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				721C19311BB1C516001AC2D0 /* LaunchScreen.storyboard in Resources */,
+				721C195C1BB312DD001AC2D0 /* red-fish.png in Resources */,
+				721C195F1BB312E8001AC2D0 /* background.jpg in Resources */,
+				721C195B1BB312DD001AC2D0 /* orange-fish.png in Resources */,
+				721C195D1BB312DD001AC2D0 /* blue-fish.png in Resources */,
 				721C192E1BB1C516001AC2D0 /* Assets.xcassets in Resources */,
 				721C192C1BB1C516001AC2D0 /* Main.storyboard in Resources */,
 			);
@@ -282,6 +298,7 @@
 				721C19371BB1C516001AC2D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
